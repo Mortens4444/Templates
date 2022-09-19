@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Unit Test</Name>
+    <Description>An NUnit &amp; Moq unit test base file</Description>
+    <Icon>Test.ico</Icon>
+    <TemplateID>Mtf.UnitTest</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>90</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>UnitTest.cs</DefaultName>
+    <AppIdFilter>blend</AppIdFilter>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true">UnitTest.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
