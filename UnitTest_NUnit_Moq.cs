@@ -7,7 +7,7 @@ namespace $rootnamespace$
     [TestFixture]
     public class $safeitemrootname$
     {
-        private readonly ITestableObject testable;
+        private ITestableObject testable;
         private Mock<IMockedObject> fooMock;
 
         [SetUp]
