@@ -1,12 +1,11 @@
-// Create a zip from this and the template file %UserProfile%\Documents\Visual Studio 2019\Templates\ItemTemplates\Visual C#
+// Create a zip from this and the template file and copy it to %UserProfile%\Documents\Visual Studio %version%\Templates\ItemTemplates\[Visual ]C#
 using Moq;
 using NUnit.Framework;
-using Platform.TestUtils;
 
 namespace $rootnamespace$
 {
     [TestFixture]
-    public class $safeitemrootname$ : TestBase
+    public class $safeitemrootname$
     {
         private readonly ITestableObject testable;
         private Mock<IMockedObject> fooMock;
@@ -39,7 +38,7 @@ namespace $rootnamespace$
 
             // Assert
             Assert.AreEqual(expected, actual);
-			//Assert.IsTrue(Enumerable.SequenceEqual(expected, actual));
+            //Assert.IsTrue(Enumerable.SequenceEqual(expected, actual));
             //Assert.Throws<Exception>(TestDelegate);
         }
     }
